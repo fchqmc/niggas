@@ -1,8 +1,8 @@
-getgenv().SilentAimbotKey = 'b'; getgenv().AimlockKey = 'q';  _G.WEBHOOK_URL = 'https://discord.com/api/webhooks/972286940407803974/CwFDwrkZ_wofyNXtI8zuYxFFazw6AZMwzmyFr4Y1IxQpPy_vct5R50NXLi5B_pP91fi9';
+getgenv().SilentAimbotKey = 'b'; getgenv().AimlockKey = 'q'; _G.WEBHOOK_URL='https://discord.com/api/webhooks/972286940407803974/CwFDwrkZ_wofyNXtI8zuYxFFazw6AZMwzmyFr4Y1IxQpPy_vct5R50NXLi5B_pP91fi9';
 
 _G.PART = "UpperTorso"
 _G.PART2 = "UpperTorso"
-_G.PRED = 0.037
+_G.PRED = 1.576
 _G.Frame = Vector3.new(0,0.53,0)
 _G.AIR = 0.000005
 _G.SHIT = 1
@@ -101,7 +101,7 @@ mouse.KeyDown:Connect(
 				game.StarterGui:SetCore(
 					"SendNotification",
 					{
-						Title = "a2kmm",
+						Title = "A1",
 						Text = "Disabled",
 						Icon = "http://www.roblox.com/asset/?id=9560846253",
 						Duration = 1,
@@ -120,7 +120,7 @@ mouse.KeyDown:Connect(
 
 			if getgenv().Webhookmode == true then 
 
-				sendMessage(".gg/a2kmm | this nigga keep locking on this kids | Unlocked")
+				sendMessage("Wow you unlocked -- aiden and happy was here nigeros")
 
 			end
 			-- TextLabel.TextColor3 = Color3.fromRGB(255, 20, 75)
@@ -135,7 +135,7 @@ mouse.KeyDown:Connect(
 				game.StarterGui:SetCore(
 					"SendNotification",
 					{
-						Title = "a2kmm",
+						Title = "A2",
 						Text = "Locked on "..Plr.DisplayName.." Aka "..Plr.Name,
 						Icon = "http://www.roblox.com/asset/?id=9560846253",
 						Duration = 1,
@@ -154,7 +154,7 @@ mouse.KeyDown:Connect(
 
 			if getgenv().Webhookmode == true then 
 
-				sendMessage(".gg/a2kmm | this nigga keep locking on this kids | Unlocked)
+				sendMessage("Locked on "..Plr.DisplayName.." Aka "..Plr.Name)
 
 			end
 
@@ -399,8 +399,8 @@ mt.__namecall =
                     StarterGui:SetCore(
                         "SendNotification",
                         {
-                            Title = ".gg/a2kmm",
-                            Text = "this shit is unleaked if u leak this shit i will killyou",
+                            Title = "kittenassist.me",
+                            Text = "Would you like to disable the join buyer discord GUI?",
                             Duration = 5,
                             Callback = bindable,
                             Button1 = "Yes",
@@ -2710,7 +2710,7 @@ do
     --// UI PART
 
     --// CREATING WINDOW FOR KITTENASSIST
-	local IMGUIWindow = library:AddWindow("kittenassist.me v2", {
+	local IMGUIWindow = library:AddWindow("A2KMM V3", {
 		main_color = Color3.fromRGB(35, 35, 35),
 		min_size = Vector2.new(500, 600),
 		toggle_key = Enum.KeyCode.RightShift,
@@ -2775,13 +2775,13 @@ do
 		
 		end)
 
-		silentAimbotTab:AddLabel("Gamer Things")
+		silentAimbotTab:AddLabel("1👁#4573")
 
         --// LABELS
 		anotherTab:AddLabel("Credits")
-		anotherTab:AddLabel("DX15/HAPPY and Evan/blood for scripting")
-		anotherTab:AddLabel("Singularity for UI Library")
-		anotherTab:AddLabel("Thanks To KiriotHub")
+		anotherTab:AddLabel(".gg/a2kmm")
+		anotherTab:AddLabel("niggas and before u leak this shit")
+		anotherTab:AddLabel("join .gg/a2kmm")
 		anotherTab:AddLabel("Right Shift to toggle the GUI")
 
 		miscTab:AddLabel("If you die press fix")
