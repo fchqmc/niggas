@@ -2,7 +2,7 @@ getgenv().SilentAimbotKey = 'b'; getgenv().AimlockKey = 'q';  _G.WEBHOOK_URL = '
 
 _G.PART = "UpperTorso"
 _G.PART2 = "UpperTorso"
-_G.PRED = 0.031
+_G.PRED = 0.029
 _G.Frame = Vector3.new(0,0.53,0)
 _G.AIR = 0.000005
 _G.SHIT = 1
