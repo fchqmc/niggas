@@ -1,8 +1,8 @@
-getgenv().SilentAimbotKey = 'b'; getgenv().AimlockKey = 'q'; _G.WEBHOOK_URL='https://discord.com/api/webhooks/972286940407803974/CwFDwrkZ_wofyNXtI8zuYxFFazw6AZMwzmyFr4Y1IxQpPy_vct5R50NXLi5B_pP91fi9';
+getgenv().SilentAimbotKey = 'b'; getgenv().AimlockKey = 'q';  _G.WEBHOOK_URL = '';
 
 _G.PART = "UpperTorso"
 _G.PART2 = "UpperTorso"
-_G.PRED = 1.576
+_G.PRED = 0.031
 _G.Frame = Vector3.new(0,0.53,0)
 _G.AIR = 0.000005
 _G.SHIT = 1
@@ -135,7 +135,7 @@ mouse.KeyDown:Connect(
 				game.StarterGui:SetCore(
 					"SendNotification",
 					{
-						Title = "A2",
+                                                Title = "A2",
 						Text = "Locked on "..Plr.DisplayName.." Aka "..Plr.Name,
 						Icon = "http://www.roblox.com/asset/?id=9560846253",
 						Duration = 1,
@@ -205,7 +205,7 @@ mt.__namecall =
 
 
 
-    local LoaderTitle = "kittenassist.me revamped"
+    local LoaderTitle = "A2 V2"
 
     local TweenService = game:GetService("TweenService")
 
@@ -448,7 +448,7 @@ mt.__namecall =
     DeclineButton.Position = UDim2.new(0.632398725, 0, 0.630491614, 0)
     DeclineButton.Size = UDim2.new(0, 100, 0, 31)
     DeclineButton.Font = Enum.Font.Gotham
-    DeclineButton.Text = "No, thanks!"
+    DeclineButton.Text = "No nigger"
     DeclineButton.TextColor3 = Color3.fromRGB(255, 255, 255)
     DeclineButton.TextSize = 17.000
     DeclineButton.TextTransparency = 1
@@ -494,8 +494,8 @@ mt.__namecall =
                     StarterGui:SetCore(
                         "SendNotification",
                         {
-                            Title = "kittenassist.me",
-                            Text = "Would you like to disable the join buyer discord GUI?",
+                            Title = "A2",
+                            Text = "Would you like to sub to my onlyfans?",
                             Duration = 5,
                             Callback = bindable,
                             Button1 = "Yes",
@@ -524,8 +524,8 @@ mt.__namecall =
                 StarterGui:SetCore(
                     "SendNotification",
                     {
-                        Title = "kittenassist.me",
-                        Text = "Would you like to disable the join buyer discord GUI?",
+                        Title = "A1",
+                        Text = "Would you like to sub to my onlyfans?",
                         Duration = 5,
                         Callback = bindable,
                         Button1 = "Yes",
@@ -2710,7 +2710,7 @@ do
     --// UI PART
 
     --// CREATING WINDOW FOR KITTENASSIST
-	local IMGUIWindow = library:AddWindow("A2KMM V3", {
+	local IMGUIWindow = library:AddWindow("A1 V4", {
 		main_color = Color3.fromRGB(35, 35, 35),
 		min_size = Vector2.new(500, 600),
 		toggle_key = Enum.KeyCode.RightShift,
@@ -2775,14 +2775,14 @@ do
 		
 		end)
 
-		silentAimbotTab:AddLabel("1👁#4573")
+		silentAimbotTab:AddLabel("Gamer Things")
 
         --// LABELS
-		anotherTab:AddLabel("Credits")
-		anotherTab:AddLabel(".gg/a2kmm")
-		anotherTab:AddLabel("niggas and before u leak this shit")
-		anotherTab:AddLabel("join .gg/a2kmm")
-		anotherTab:AddLabel("Right Shift to toggle the GUI")
+		anotherTab:AddLabel("A1")
+		anotherTab:AddLabel("no")
+		anotherTab:AddLabel("stealing")
+		anotherTab:AddLabel("from")
+		anotherTab:AddLabel("Daddy! | Right Shift to toggle the GUI")
 
 		miscTab:AddLabel("If you die press fix")
 		miscTab:AddLabel("Speed Glitch is real macro but in Lua")
@@ -3334,3 +3334,4 @@ local smoothness = false
 local aimbotTarg = nil
 local aimbotPart = ""
 local aimFov = 40
+--[[
